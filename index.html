@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="circle-container">
+        <svg viewBox="0 0 36 36">
+          <path
+            class="circle-bg"
+            d="M18 2.0845
+                   a 15.9155 15.9155 0 0 1 0 31.831
+                   a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <path
+            class="circle-progress"
+            id="circleProgress"
+            stroke-dasharray="0.1, 100"
+            d="M18 2.0845
+                   a 15.9155 15.9155 0 0 1 0 31.831
+                   a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+        </svg>
+        <div class="counter" id="counter">0/7</div>
+      </div>
+      <div class="checklist">
+        <span>Чеклист</span>
+        <div class="status">
+          <p class="done">Выполнено: 0&nbsp;из&nbsp;7&nbsp;действий</p>
+          <p>
+            Следующее действие: Созвониться с&nbsp;клиентом до&nbsp;23.05.24
+            12:00
+          </p>
+        </div>
+      </div>
+      <button class="open-button">Открыть чеклист</button>
+    </div>
+  </body>
+</html>
